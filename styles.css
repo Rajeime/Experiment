@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: green;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header h1{
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+ul li{
+    padding: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: green;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+ul li a:hover{
+    color: white;
+}
