@@ -40,5 +40,24 @@ ul li a{
 ul li a:hover{
     color: white;
 }
+.bar{
+    font-size: 28px;
+    display: none;
+}
 
 /* phone version of the website */
+ @media screen and (max-width:750px){
+
+    .bar{
+        font-size: 28px;
+        display: inline;}
+
+  nav{
+      display: none;
+  }
+
+header{
+    height: 60px;
+}
+
+ }
